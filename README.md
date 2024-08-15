@@ -2,6 +2,10 @@
 
 Este projeto é parte dos meus estudos contínuos de desenvolvimento com SwiftUI, focando na integração com dois dos modelos de linguagem de grande destaque atualmente: #ChatGPT e #Gemini.
 
+<img src=readme_images/main.png width="160" height="360">
+<img src=readme_images/gpt.png width="160" height="360">
+<img src=readme_images/gemii2.png width="160" height="360">
+
 ## Objetivo do Projeto
 
 O principal objetivo deste projeto é demonstrar como integrar e utilizar modelos de linguagem de grande escala (LLMs) em uma aplicação iOS utilizando SwiftUI. Através deste projeto, exploro diferentes APIs e padrões de arquitetura para otimizar a interação com esses modelos de IA.
