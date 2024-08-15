@@ -13,7 +13,7 @@ final class ChatGPTViewModel {
     
     var messages: [MessageModel] = []
     
-    let openAI = OpenAI(apiToken: "")
+    let openAI = OpenAI(apiToken: " YOUR_OPENAI_API_TOKEN")
     
     func sendNewMessage(content: String) {
         let userMessage = MessageModel(content: content, isUser: true)
