@@ -21,16 +21,16 @@ O principal objetivo deste projeto é demonstrar como integrar e utilizar modelo
 
 O projeto faz uso de dois pacotes principais, que facilitam a integração com os modelos de linguagem:
 
-- **generative-ai-swift**: Biblioteca que fornece interfaces para interagir com modelos generativos.
+- **generative-ai-swift**: Biblioteca que fornece interfaces para interagir com o Gemini.
 - **OpenAI**: Biblioteca que facilita a comunicação com o modelo ChatGPT.
 
 ## Estrutura do Projeto
 
 A estrutura do projeto segue o padrão MVVM (Model-View-ViewModel), onde:
 
-- **Model**: Representa os dados e a lógica de negócios.
+- **Model**: Representa os dados.
 - **View**: Responsável pela camada de interface com o usuário.
-- **ViewModel**: Intermedia a comunicação entre o Model e o View, gerenciando o estado e as interações.
+- **ViewModel**: Intermedia a comunicação entre o Model e o View, gerenciando o estado e as interações e contém a lógica de negócios.
 
 ## Como Executar o Projeto
 
